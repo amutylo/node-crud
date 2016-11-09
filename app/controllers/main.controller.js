@@ -1,7 +1,8 @@
 module.exports = {
 
-// show home page
+  // show the home page
   showHome: (req, res) => {
-    res.send("Hello. I'm the app!");
+    res.render('pages/home');
   }
-}
+
+};
